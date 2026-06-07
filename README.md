@@ -28,15 +28,12 @@ Também existe uma versão estática em `docs/` para publicação no GitHub Page
 - React 18 via CDN
 - CSS responsivo sem dependência de build
 - PWA com manifest e service worker
-- GitHub Pages via GitHub Actions
+- GitHub Pages publicado pela pasta `docs/` da branch `master`
 
 ## Estrutura
 
 ```txt
 .
-├── .github/
-│   └── workflows/
-│       └── deploy-pages.yml
 ├── app.py
 ├── clinic.db
 ├── docs/
@@ -107,7 +104,7 @@ python -c "from app import app, init_db; init_db(); c=app.test_client(); print(c
 
 ## Versão online no GitHub Pages
 
-O repositório contém uma versão estática em `docs/`, publicada por GitHub Actions no GitHub Pages.
+O repositório contém uma versão estática em `docs/`, publicada pelo GitHub Pages a partir da branch `master`.
 
 Link esperado:
 
