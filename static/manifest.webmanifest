@@ -1,0 +1,17 @@
+{
+  "name": "Clínica Psiquiátrica",
+  "short_name": "Clínica",
+  "description": "Portal administrativo e do cliente para clínica psiquiátrica.",
+  "start_url": "/app",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/static/img/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
