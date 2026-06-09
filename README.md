@@ -207,3 +207,6 @@ Versão inicial funcional com:
 - Gerar APK com Capacitor ou app desktop com Electron quando Node/NPM estiverem disponíveis.
 - Adicionar testes automatizados.
 - Preparar ambiente de produção com variáveis de ambiente e banco dedicado.
+
+
+Trabalho foi feito por um grupo de 4 alunos na universidade Estácio SÁ, foi um projeto semestral.
